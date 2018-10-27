@@ -1,3 +1,9 @@
-let conditionTest1 = "r" , conditionTest2 = 'Une chaîne de caractères';
+var family = {
+	'pere': 'jp',
+	'mere': 'valerie',
+	'moi': 'nicolas'
+};
 
-alert(conditionTest1 || conditionTest2);
+for (var item in family) {
+	alert(item);
+}
